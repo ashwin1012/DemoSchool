@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ConcurrentTests" parallel="classes" thread-count="2">
+    <test name="PatientdairyTest1">
+        <classes>
+            <class name="tests.ParentDairy1"/>
+        </classes>
+    </test>
+    <test name="PatientdairyTest2">
+        <classes>
+            <class name="tests.ParentDairy2"/>
+        </classes>
+    </test>
+    <test name="PatientdairyTest3">
+        <classes>
+            <class name="tests.ParentDairy3"/>
+        </classes>
+    </test>
+</suite>

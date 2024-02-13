@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [ParallelTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="LKG(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.LKGClassAttendance">
+        <methods>
+          <include name="FirstStdAttendance"/>
+          <include name="configuration"/>
+          <include name="logout"/>
+          <include name="OpenApplication"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.LKGClassAttendance -->
+    </classes>
+  </test> <!-- LKG(failed) -->
+  <test thread-count="1" parallel="tests" name="UKG(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.UKGClassAttendance">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="configuration"/>
+          <include name="FirstStdAttendance"/>
+          <include name="logout"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.UKGClassAttendance -->
+    </classes>
+  </test> <!-- UKG(failed) -->
+  <test thread-count="1" parallel="tests" name="1st(failed)">
+    <classes>
+      <class name="tests.FirstSTDAttendance">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="configuration"/>
+          <include name="FirstStdAttendance"/>
+          <include name="logout"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.FirstSTDAttendance -->
+    </classes>
+  </test> <!-- 1st(failed) -->
+  <test thread-count="1" parallel="tests" name="2nd(failed)">
+    <classes>
+      <class name="tests.SecondSTDAttendance">
+        <methods>
+          <include name="configuration"/>
+          <include name="FirstStdAttendance"/>
+          <include name="logout"/>
+          <include name="closure"/>
+          <include name="OpenApplication"/>
+        </methods>
+      </class> <!-- tests.SecondSTDAttendance -->
+    </classes>
+  </test> <!-- 2nd(failed) -->
+  <test thread-count="1" parallel="tests" name="3rd(failed)">
+    <classes>
+      <class name="tests.ThirdSTDAttendance">
+        <methods>
+          <include name="configuration"/>
+          <include name="OpenApplication"/>
+          <include name="FirstStdAttendance"/>
+          <include name="logout"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.ThirdSTDAttendance -->
+    </classes>
+  </test> <!-- 3rd(failed) -->
+  <test thread-count="1" parallel="tests" name="4th(failed)">
+    <classes>
+      <class name="tests.FourthSTDAttendance">
+        <methods>
+          <include name="configuration"/>
+          <include name="FirstStdAttendance"/>
+          <include name="logout"/>
+          <include name="closure"/>
+          <include name="OpenApplication"/>
+        </methods>
+      </class> <!-- tests.FourthSTDAttendance -->
+    </classes>
+  </test> <!-- 4th(failed) -->
+  <test thread-count="1" parallel="tests" name="5th(failed)">
+    <classes>
+      <class name="tests.FifthSTDAttendance">
+        <methods>
+          <include name="logout"/>
+          <include name="configuration"/>
+          <include name="FifthStdAttendance"/>
+          <include name="OpenApplication"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.FifthSTDAttendance -->
+    </classes>
+  </test> <!-- 5th(failed) -->
+  <test thread-count="1" parallel="tests" name="6th(failed)">
+    <classes>
+      <class name="tests.SixthSTDAttendance">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="configuration"/>
+          <include name="FirstStdAttendance"/>
+          <include name="logout"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.SixthSTDAttendance -->
+    </classes>
+  </test> <!-- 6th(failed) -->
+  <test thread-count="1" parallel="tests" name="7th(failed)">
+    <classes>
+      <class name="tests.SeventhSTDAttendance">
+        <methods>
+          <include name="logout"/>
+          <include name="configuration"/>
+          <include name="OpenApplication"/>
+          <include name="SeventhStdAttendance"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.SeventhSTDAttendance -->
+    </classes>
+  </test> <!-- 7th(failed) -->
+  <test thread-count="1" parallel="tests" name="8th(failed)">
+    <classes>
+      <class name="tests.EightSTDAttendance">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="EightStdAttendance"/>
+          <include name="configuration"/>
+          <include name="closure"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- tests.EightSTDAttendance -->
+    </classes>
+  </test> <!-- 8th(failed) -->
+  <test thread-count="1" parallel="tests" name="9th(failed)">
+    <classes>
+      <class name="tests.NienthSTDAttendance">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="configuration"/>
+          <include name="logout"/>
+          <include name="NienthSTD"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.NienthSTDAttendance -->
+    </classes>
+  </test> <!-- 9th(failed) -->
+  <test thread-count="1" parallel="tests" name="10th(failed)">
+    <classes>
+      <class name="tests.TenthSTDAttendance">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="tenthStdAttendance"/>
+          <include name="configuration"/>
+          <include name="logout"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.TenthSTDAttendance -->
+    </classes>
+  </test> <!-- 10th(failed) -->
+  <test thread-count="1" parallel="tests" name="11th(failed)">
+    <classes>
+      <class name="tests.EleventhSTDAttendance">
+        <methods>
+          <include name="configuration"/>
+          <include name="OpenApplication"/>
+          <include name="logout"/>
+          <include name="EleventhStdAttendance"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.EleventhSTDAttendance -->
+    </classes>
+  </test> <!-- 11th(failed) -->
+  <test thread-count="1" parallel="tests" name="12th(failed)">
+    <classes>
+      <class name="tests.TwelthSTDAttendance">
+        <methods>
+          <include name="OpenApplication"/>
+          <include name="configuration"/>
+          <include name="logout"/>
+          <include name="twelthStdAttendance"/>
+          <include name="closure"/>
+        </methods>
+      </class> <!-- tests.TwelthSTDAttendance -->
+    </classes>
+  </test> <!-- 12th(failed) -->
+</suite> <!-- Failed suite [ParallelTestSuite] -->

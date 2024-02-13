@@ -1,0 +1,92 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+
+<suite parallel="tests" name="ParallelTestSuite" thread-count="1">
+	
+  <test  name="LKG">
+   <classes>
+      <class name="tests.LKGClassAttendance"/>
+    </classes>
+    
+   </test>
+   
+   <test  name="UKG">
+    <classes>
+      <class name="tests.UKGClassAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="1st">
+    <classes>
+      <class name="tests.FirstSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="2nd">
+    <classes>
+      <class name="tests.SecondSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="3rd">
+    <classes>
+      <class name="tests.ThirdSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="4th">
+    <classes>
+      <class name="tests.FourthSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="5th">
+    <classes>
+      <class name="tests.FifthSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="6th" time-out="10000">
+    <classes>
+      <class name="tests.SixthSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="7th">
+    <classes>
+      <class name="tests.SeventhSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="8th" >
+    <classes>
+      <class name="tests.EightSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="9th" >
+    <classes>
+      <class name="tests.NienthSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="10th">
+    <classes>
+      <class name="tests.TenthSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="11th">
+    <classes>
+      <class name="tests.EleventhSTDAttendance"/>
+        </classes>
+   </test>
+   
+   <test  name="12th">
+    <classes>
+      <class name="tests.TwelthSTDAttendance"/>
+    </classes>
+  </test> 
+  
+  
+</suite> 

@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="0" failed="14" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-12T14:34:52 IST" name="ParallelTestSuite" finished-at="2024-01-12T14:42:11 IST" duration-ms="438676">
+    <groups>
+    </groups>
+    <test started-at="2024-01-12T14:34:52 IST" name="LKG" finished-at="2024-01-12T14:35:16 IST" duration-ms="23982">
+      <class name="tests.LKGClassAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.LKGClassAttendance@1ebd319f]" started-at="2024-01-12T14:34:52 IST" name="OpenApplication" finished-at="2024-01-12T14:35:05 IST" duration-ms="12636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="FirstStdAttendance()[pri:0, instance:tests.LKGClassAttendance@1ebd319f]" started-at="2024-01-12T14:35:05 IST" name="FirstStdAttendance" finished-at="2024-01-12T14:35:15 IST" duration-ms="10018" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.LKGClassAttendance.FirstStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.LKGClassAttendance.FirstStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.LKGClassAttendance@1ebd319f]" started-at="2024-01-12T14:35:15 IST" name="logout" finished-at="2024-01-12T14:35:16 IST" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.LKGClassAttendance -->
+    </test> <!-- LKG -->
+    <test started-at="2024-01-12T14:35:16 IST" name="UKG" finished-at="2024-01-12T14:35:38 IST" duration-ms="22203">
+      <class name="tests.UKGClassAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.UKGClassAttendance@3cc1435c]" started-at="2024-01-12T14:35:16 IST" name="OpenApplication" finished-at="2024-01-12T14:35:28 IST" duration-ms="11309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="FirstStdAttendance()[pri:0, instance:tests.UKGClassAttendance@3cc1435c]" started-at="2024-01-12T14:35:28 IST" name="FirstStdAttendance" finished-at="2024-01-12T14:35:38 IST" duration-ms="10013" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.UKGClassAttendance.FirstStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.UKGClassAttendance.FirstStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.UKGClassAttendance@3cc1435c]" started-at="2024-01-12T14:35:38 IST" name="logout" finished-at="2024-01-12T14:35:38 IST" duration-ms="878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.UKGClassAttendance -->
+    </test> <!-- UKG -->
+    <test started-at="2024-01-12T14:35:39 IST" name="1st" finished-at="2024-01-12T14:36:22 IST" duration-ms="43645">
+      <class name="tests.FirstSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.FirstSTDAttendance@87a85e1]" started-at="2024-01-12T14:35:39 IST" name="OpenApplication" finished-at="2024-01-12T14:36:08 IST" duration-ms="29901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="FirstStdAttendance()[pri:0, instance:tests.FirstSTDAttendance@87a85e1]" started-at="2024-01-12T14:36:08 IST" name="FirstStdAttendance" finished-at="2024-01-12T14:36:18 IST" duration-ms="10005" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.FirstSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.FirstSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.FirstSTDAttendance@87a85e1]" started-at="2024-01-12T14:36:18 IST" name="logout" finished-at="2024-01-12T14:36:22 IST" duration-ms="3729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.FirstSTDAttendance -->
+    </test> <!-- 1st -->
+    <test started-at="2024-01-12T14:36:22 IST" name="2nd" finished-at="2024-01-12T14:36:44 IST" duration-ms="21564">
+      <class name="tests.SecondSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.SecondSTDAttendance@1356d4d4]" started-at="2024-01-12T14:36:22 IST" name="OpenApplication" finished-at="2024-01-12T14:36:33 IST" duration-ms="10663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="FirstStdAttendance()[pri:0, instance:tests.SecondSTDAttendance@1356d4d4]" started-at="2024-01-12T14:36:33 IST" name="FirstStdAttendance" finished-at="2024-01-12T14:36:43 IST" duration-ms="10004" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.SecondSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.SecondSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.SecondSTDAttendance@1356d4d4]" started-at="2024-01-12T14:36:43 IST" name="logout" finished-at="2024-01-12T14:36:44 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.SecondSTDAttendance -->
+    </test> <!-- 2nd -->
+    <test started-at="2024-01-12T14:36:44 IST" name="3rd" finished-at="2024-01-12T14:37:28 IST" duration-ms="43891">
+      <class name="tests.ThirdSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.ThirdSTDAttendance@46fa7c39]" started-at="2024-01-12T14:36:44 IST" name="OpenApplication" finished-at="2024-01-12T14:37:14 IST" duration-ms="29996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="FirstStdAttendance()[pri:0, instance:tests.ThirdSTDAttendance@46fa7c39]" started-at="2024-01-12T14:37:14 IST" name="FirstStdAttendance" finished-at="2024-01-12T14:37:24 IST" duration-ms="10018" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.ThirdSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.ThirdSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.ThirdSTDAttendance@46fa7c39]" started-at="2024-01-12T14:37:24 IST" name="logout" finished-at="2024-01-12T14:37:28 IST" duration-ms="3877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.ThirdSTDAttendance -->
+    </test> <!-- 3rd -->
+    <test started-at="2024-01-12T14:37:28 IST" name="4th" finished-at="2024-01-12T14:37:49 IST" duration-ms="21556">
+      <class name="tests.FourthSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.FourthSTDAttendance@8317c52]" started-at="2024-01-12T14:37:28 IST" name="OpenApplication" finished-at="2024-01-12T14:37:38 IST" duration-ms="10660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="FirstStdAttendance()[pri:0, instance:tests.FourthSTDAttendance@8317c52]" started-at="2024-01-12T14:37:38 IST" name="FirstStdAttendance" finished-at="2024-01-12T14:37:48 IST" duration-ms="10012" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.FourthSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.FourthSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.FourthSTDAttendance@8317c52]" started-at="2024-01-12T14:37:48 IST" name="logout" finished-at="2024-01-12T14:37:49 IST" duration-ms="884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.FourthSTDAttendance -->
+    </test> <!-- 4th -->
+    <test started-at="2024-01-12T14:37:49 IST" name="5th" finished-at="2024-01-12T14:38:33 IST" duration-ms="43604">
+      <class name="tests.FifthSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.FifthSTDAttendance@7e9131d5]" started-at="2024-01-12T14:37:49 IST" name="OpenApplication" finished-at="2024-01-12T14:38:19 IST" duration-ms="29861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="FifthStdAttendance()[pri:0, instance:tests.FifthSTDAttendance@7e9131d5]" started-at="2024-01-12T14:38:19 IST" name="FifthStdAttendance" finished-at="2024-01-12T14:38:29 IST" duration-ms="10026" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.FifthSTDAttendance.FifthStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.FifthSTDAttendance.FifthStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FifthStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.FifthSTDAttendance@7e9131d5]" started-at="2024-01-12T14:38:29 IST" name="logout" finished-at="2024-01-12T14:38:33 IST" duration-ms="3706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.FifthSTDAttendance -->
+    </test> <!-- 5th -->
+    <test started-at="2024-01-12T14:38:33 IST" name="6th" finished-at="2024-01-12T14:38:54 IST" duration-ms="21577">
+      <class name="tests.SixthSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.SixthSTDAttendance@44a7bfbc]" started-at="2024-01-12T14:38:33 IST" name="OpenApplication" finished-at="2024-01-12T14:38:43 IST" duration-ms="10618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="FirstStdAttendance()[pri:0, instance:tests.SixthSTDAttendance@44a7bfbc]" started-at="2024-01-12T14:38:43 IST" name="FirstStdAttendance" finished-at="2024-01-12T14:38:54 IST" duration-ms="10023" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.SixthSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.SixthSTDAttendance.FirstStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.SixthSTDAttendance@44a7bfbc]" started-at="2024-01-12T14:38:54 IST" name="logout" finished-at="2024-01-12T14:38:54 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.SixthSTDAttendance -->
+    </test> <!-- 6th -->
+    <test started-at="2024-01-12T14:38:55 IST" name="7th" finished-at="2024-01-12T14:39:38 IST" duration-ms="43306">
+      <class name="tests.SeventhSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.SeventhSTDAttendance@2beee7ff]" started-at="2024-01-12T14:38:55 IST" name="OpenApplication" finished-at="2024-01-12T14:39:24 IST" duration-ms="29792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="SeventhStdAttendance()[pri:0, instance:tests.SeventhSTDAttendance@2beee7ff]" started-at="2024-01-12T14:39:24 IST" name="SeventhStdAttendance" finished-at="2024-01-12T14:39:34 IST" duration-ms="10019" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.SeventhSTDAttendance.SeventhStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.SeventhSTDAttendance.SeventhStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeventhStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.SeventhSTDAttendance@2beee7ff]" started-at="2024-01-12T14:39:34 IST" name="logout" finished-at="2024-01-12T14:39:38 IST" duration-ms="3462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.SeventhSTDAttendance -->
+    </test> <!-- 7th -->
+    <test started-at="2024-01-12T14:39:38 IST" name="8th" finished-at="2024-01-12T14:40:00 IST" duration-ms="21683">
+      <class name="tests.EightSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.EightSTDAttendance@40cb8df7]" started-at="2024-01-12T14:39:38 IST" name="OpenApplication" finished-at="2024-01-12T14:39:49 IST" duration-ms="10724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="EightStdAttendance()[pri:0, instance:tests.EightSTDAttendance@40cb8df7]" started-at="2024-01-12T14:39:49 IST" name="EightStdAttendance" finished-at="2024-01-12T14:39:59 IST" duration-ms="10010" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.EightSTDAttendance.EightStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.EightSTDAttendance.EightStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EightStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.EightSTDAttendance@40cb8df7]" started-at="2024-01-12T14:39:59 IST" name="logout" finished-at="2024-01-12T14:40:00 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.EightSTDAttendance -->
+    </test> <!-- 8th -->
+    <test started-at="2024-01-12T14:40:00 IST" name="9th" finished-at="2024-01-12T14:40:43 IST" duration-ms="43353">
+      <class name="tests.NienthSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.NienthSTDAttendance@5fa07e12]" started-at="2024-01-12T14:40:00 IST" name="OpenApplication" finished-at="2024-01-12T14:40:29 IST" duration-ms="29671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="NienthSTD()[pri:0, instance:tests.NienthSTDAttendance@5fa07e12]" started-at="2024-01-12T14:40:29 IST" name="NienthSTD" finished-at="2024-01-12T14:40:39 IST" duration-ms="10013" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.NienthSTDAttendance.NienthSTD() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.NienthSTDAttendance.NienthSTD() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NienthSTD -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.NienthSTDAttendance@5fa07e12]" started-at="2024-01-12T14:40:39 IST" name="logout" finished-at="2024-01-12T14:40:43 IST" duration-ms="3641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.NienthSTDAttendance -->
+    </test> <!-- 9th -->
+    <test started-at="2024-01-12T14:40:43 IST" name="10th" finished-at="2024-01-12T14:41:05 IST" duration-ms="22115">
+      <class name="tests.TenthSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.TenthSTDAttendance@4da4253]" started-at="2024-01-12T14:40:43 IST" name="OpenApplication" finished-at="2024-01-12T14:40:54 IST" duration-ms="10931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="tenthStdAttendance()[pri:0, instance:tests.TenthSTDAttendance@4da4253]" started-at="2024-01-12T14:40:54 IST" name="tenthStdAttendance" finished-at="2024-01-12T14:41:04 IST" duration-ms="10013" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.TenthSTDAttendance.tenthStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.TenthSTDAttendance.tenthStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tenthStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.TenthSTDAttendance@4da4253]" started-at="2024-01-12T14:41:04 IST" name="logout" finished-at="2024-01-12T14:41:05 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.TenthSTDAttendance -->
+    </test> <!-- 10th -->
+    <test started-at="2024-01-12T14:41:05 IST" name="11th" finished-at="2024-01-12T14:41:49 IST" duration-ms="44152">
+      <class name="tests.EleventhSTDAttendance">
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.EleventhSTDAttendance@4cc8eb05]" started-at="2024-01-12T14:41:05 IST" name="OpenApplication" finished-at="2024-01-12T14:41:35 IST" duration-ms="30321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="EleventhStdAttendance()[pri:0, instance:tests.EleventhSTDAttendance@4cc8eb05]" started-at="2024-01-12T14:41:35 IST" name="EleventhStdAttendance" finished-at="2024-01-12T14:41:45 IST" duration-ms="10014" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.EleventhSTDAttendance.EleventhStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.EleventhSTDAttendance.EleventhStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EleventhStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.EleventhSTDAttendance@4cc8eb05]" started-at="2024-01-12T14:41:45 IST" name="logout" finished-at="2024-01-12T14:41:49 IST" duration-ms="3811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- tests.EleventhSTDAttendance -->
+    </test> <!-- 11th -->
+    <test started-at="2024-01-12T14:41:49 IST" name="12th" finished-at="2024-01-12T14:42:11 IST" duration-ms="21703">
+      <class name="tests.TwelthSTDAttendance">
+        <test-method is-config="true" signature="configuration()[pri:0, instance:tests.TwelthSTDAttendance@7690781]" started-at="2024-01-12T14:34:52 IST" name="configuration" finished-at="2024-01-12T14:34:52 IST" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configuration -->
+        <test-method is-config="true" signature="OpenApplication()[pri:0, instance:tests.TwelthSTDAttendance@7690781]" started-at="2024-01-12T14:41:49 IST" name="OpenApplication" finished-at="2024-01-12T14:42:00 IST" duration-ms="10800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApplication -->
+        <test-method signature="twelthStdAttendance()[pri:0, instance:tests.TwelthSTDAttendance@7690781]" started-at="2024-01-12T14:42:00 IST" name="twelthStdAttendance" finished-at="2024-01-12T14:42:10 IST" duration-ms="10010" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method tests.TwelthSTDAttendance.twelthStdAttendance() didn't finish within the time-out 10000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method tests.TwelthSTDAttendance.twelthStdAttendance() didn't finish within the time-out 10000
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:384)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:283)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:604)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twelthStdAttendance -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:tests.TwelthSTDAttendance@7690781]" started-at="2024-01-12T14:42:10 IST" name="logout" finished-at="2024-01-12T14:42:11 IST" duration-ms="891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:tests.TwelthSTDAttendance@7690781]" started-at="2024-01-12T14:42:11 IST" name="closure" finished-at="2024-01-12T14:42:11 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- tests.TwelthSTDAttendance -->
+    </test> <!-- 12th -->
+  </suite> <!-- ParallelTestSuite -->
+</testng-results>
